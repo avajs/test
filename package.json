@@ -1,0 +1,27 @@
+{
+	"name": "@ava/test",
+	"private": true,
+	"version": "0.0.0",
+	"description": "A package that wraps AVA so AVA can use AVA to test AVA 🤯",
+	"main": "index.js",
+	"author": "Mark Wubben (https://novemberborn.net/)",
+	"license": "MIT",
+	"scripts": {
+		"test": "xo && tsd && ./node_modules/@ava/v3/cli.js"
+	},
+	"bin": {
+		"test-ava": "./cli.js"
+	},
+	"files": [
+		"cli.js",
+		"index.js",
+		"index.d.ts"
+	],
+	"dependencies": {
+		"@ava/v3": "npm:ava@^3.8.1"
+	},
+	"devDependencies": {
+		"tsd": "^0.11.0",
+		"xo": "^0.30.0"
+	}
+}
