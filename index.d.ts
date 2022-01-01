@@ -1,3 +1,1 @@
-import test from '@ava/v3';
-
-export default test;
+export {default} from '@ava/v4';

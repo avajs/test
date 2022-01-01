@@ -1,3 +1,7 @@
 #!/usr/bin/env node
-'use strict';
-require('@ava/v3/cli'); // eslint-disable-line import/no-unassigned-import
+import {createRequire} from 'node:module';
+import {pathToFileURL} from 'node:url';
+
+const require = createRequire(import.meta.url);
+const mainEntrypoint = pathToFileURL(require.resolve('@ava/v4'));
+import(new URL('./cli.mjs', mainEntrypoint));
