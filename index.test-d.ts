@@ -1,4 +1,4 @@
-import test from '@ava/v3';
+import test from '@ava/v4';
 import {expectType} from 'tsd';
 import pkg from '.';
 

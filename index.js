@@ -1,2 +1,1 @@
-'use strict';
-module.exports = require('@ava/v3');
+export {default} from '@ava/v4';
