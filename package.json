@@ -26,7 +26,7 @@
 		"index.d.ts"
 	],
 	"dependencies": {
-		"@ava/v4": "npm:ava@4.3.2"
+		"@ava/v4": "npm:ava@4.3.3"
 	},
 	"devDependencies": {
 		"tsd": "^0.19.1",
