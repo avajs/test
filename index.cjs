@@ -1,1 +1,1 @@
-module.exports = require('@ava/v4');
+module.exports = require('@ava/v5');
