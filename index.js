@@ -1,1 +1,1 @@
-export {default} from '@ava/v5';
+export {default} from '@ava/v6';
