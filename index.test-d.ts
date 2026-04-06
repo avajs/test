@@ -1,5 +1,5 @@
-import type test from '@ava/v6';
+import type test from '@ava/v7';
 import {expectType} from 'tsd';
-import pkg from '.';
+import pkg from './index.js';
 
 expectType<typeof test>(pkg);
