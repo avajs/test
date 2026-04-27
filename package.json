@@ -7,15 +7,14 @@
 	"author": "Mark Wubben (https://novemberborn.net/)",
 	"license": "MIT",
 	"scripts": {
-		"test": "xo && tsd && ./node_modules/@ava/v7/entrypoints/cli.mjs"
+		"test": "xo && tsd && ./node_modules/@ava/v8/entrypoints/cli.js"
 	},
 	"bin": {
 		"test-ava": "./cli.js"
 	},
 	"exports": {
 		".": {
-			"import": "./index.js",
-			"require": "./index.cjs"
+			"import": "./index.js"
 		}
 	},
 	"type": "module",
@@ -26,7 +25,7 @@
 		"index.d.ts"
 	],
 	"dependencies": {
-		"@ava/v7": "npm:ava@^7"
+		"@ava/v8": "npm:ava@^8"
 	},
 	"devDependencies": {
 		"tsd": "^0.33.0",
