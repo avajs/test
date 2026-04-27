@@ -1,4 +1,4 @@
-import type test from '@ava/v7';
+import type test from '@ava/v8';
 import {expectType} from 'tsd';
 import pkg from './index.js';
 
